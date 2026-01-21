@@ -46,5 +46,3 @@ inner join customer cu on r.customer_id = cu.customer_id
 inner join address a on cu.address_id = a.address_id 
 inner join city ci on a.city_id = ci.city_id 
 inner join country co on ci.country_id = co.country_id;
-
-
