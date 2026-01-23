@@ -10,8 +10,8 @@ posicao int); --posicao da fila
 
 
 insert into reserva (data_reserva, id_usuario, id_exemplar, status, posicao)
-values  ('02/01/2026, 9:30 ',1 ,5 ,'disponivel', 1),
-		('02/01/2026, 13:03',1 ,8 ,'bloqueado ',null ),
+values  ('02/01/2026, 9:30 ',1 ,5 ,'liberado', 1),
+		('02/01/2026, 13:03',1 ,8 ,'aguardando ',1 ),
 		('06/01/2026, 10:32',4 ,2 ,'aguardando ',1 ),
 		('07/01/2026, 14:01',3 ,2 , 'aguardando ',2 ),
 		('07/01/2026, 16:10', , , ' ', ),
